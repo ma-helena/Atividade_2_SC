@@ -1,30 +1,27 @@
 public enum Mes {
-    JANUARY_EXPENSE(1000, "valor do mes"),
-    FEBRUARY_EXPENSE(2000, "valor do mes"),
-    MARCH_EXPENSE(3000, "valor do mes"),
-
-    ABRIL_EXPENSE(4000, "valor do mes"),
-    MAIO_EXPENSE(5000, "valor do mes"),
-    JUNHO_EXPENSE(6000, "valor do mes"),
-    JULHO_EXPENSE(7000, "valor do mes"),
-    AGOSTO_EXPENSE(8000, "valor do mes"),
-    SETEMBRO_EXPENSE(9000, "valor do mes"),
-    OUTUBRO_EXPENSE(10000, "valor do mes"),
-    NOVEMBRO_EXPENSE(11000, "valor do mes"),
-    DEZEMBRO_EXPENSE(12000, "valor do mes");
+    JANEIRO_EXPENSE(1000),
+    FEVEREIRO_EXPENSE(2000),
+    MARCO_EXPENSE(3000),
+    ABRIL_EXPENSE(4000),
+    MAIO_EXPENSE(5000),
+    JUNHO_EXPENSE(6000),
+    JULHO_EXPENSE(7000),
+    AGOSTO_EXPENSE(8000),
+    SETEMBRO_EXPENSE(9000),
+    OUTUBRO_EXPENSE(10000),
+    NOVEMBRO_EXPENSE(11000),
+    DEZEMBRO_EXPENSE(12000);
 
     private int valor;
-    private String mes;
 
-    Mes(int valor, String mes) {
+    Mes(int valor) {
         this.valor = valor;
-        this.mes = mes;
+
     }
 
     public int getValor() {
         return valor;
     }
-    public String getMes() {
-        return mes;
-    }
+
+
 }

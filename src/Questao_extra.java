@@ -17,61 +17,55 @@ public class Questao_extra {
 
         switch (opcao){
             case 1 -> {
-                int MesExpense = Mes.JANUARY_EXPENSE.getValor();
-                System.out.println("O gasto total no trimestre é: R$ " + MesExpense);
+                int MesExpense = Mes.JANEIRO_EXPENSE.getValor();
+                System.out.println("O gasto total no mês é: R$ " + MesExpense);
             }
             case 2 -> {
-                int MesExpense = Mes.FEBRUARY_EXPENSE.getValor();
-                System.out.println("O gasto total no trimestre é: R$ " + MesExpense);
+                int MesExpense = Mes.FEVEREIRO_EXPENSE.getValor();
+                System.out.println("O gasto total no mês é: R$ " + MesExpense);
             }
             case 3 -> {
-                int MesExpense = Mes.MARCH_EXPENSE.getValor();
-                System.out.println("O gasto total no trimestre é: R$ " + MesExpense);
+                int MesExpense = Mes.MARCO_EXPENSE.getValor();
+                System.out.println("O gasto total no mês é: R$ " + MesExpense);
             }
             case 4 -> {
                 int MesExpense = Mes.ABRIL_EXPENSE.getValor();
-                System.out.println("O gasto total no trimestre é: R$ " + MesExpense);
+                System.out.println("O gasto total no mês é: R$ " + MesExpense);
             }
             case 5 -> {
                 int MesExpense = Mes.MAIO_EXPENSE.getValor();
-                System.out.println("O gasto total no trimestre é: R$ " + MesExpense);
+                System.out.println("O gasto total no mês é: R$ " + MesExpense);
             }
             case 6 -> {
                 int MesExpense = Mes.JUNHO_EXPENSE.getValor();
-                System.out.println("O gasto total no trimestre é: R$ " + MesExpense);
+                System.out.println("O gasto total no mês é: R$ " + MesExpense);
             }
             case 7 -> {
                 int MesExpense = Mes.JULHO_EXPENSE.getValor();
-                System.out.println("O gasto total no trimestre é: R$ " + MesExpense);
+                System.out.println("O gasto total no mês é: R$ " + MesExpense);
             }
             case 8 -> {
                 int MesExpense = Mes.AGOSTO_EXPENSE.getValor();
-                System.out.println("O gasto total no trimestre é: R$ " + MesExpense);
+                System.out.println("O gasto total no mês é: R$ " + MesExpense);
             }
             case 9 -> {
                 int MesExpense = Mes.SETEMBRO_EXPENSE.getValor();
-                System.out.println("O gasto total no trimestre é: R$ " + MesExpense);
+                System.out.println("O gasto total no mês é: R$ " + MesExpense);
             }
             case 10 -> {
                 int MesExpense = Mes.OUTUBRO_EXPENSE.getValor();
-                System.out.println("O gasto total no trimestre é: R$ " + MesExpense);
+                System.out.println("O gasto total no mês é: R$ " + MesExpense);
             }
             case 11 -> {
                 int MesExpense = Mes.NOVEMBRO_EXPENSE.getValor();
-                System.out.println("O gasto total no trimestre é: R$ " + MesExpense);
+                System.out.println("O gasto total no mês é: R$ " + MesExpense);
             }
             case 12 -> {
                 int MesExpense = Mes.DEZEMBRO_EXPENSE.getValor();
-                System.out.println("O gasto total no trimestre é: R$ " + MesExpense);
+                System.out.println("O gasto total no mês é: R$ " + MesExpense);
             }
             default -> System.out.println("Opção inválida, tente novamente.");
         }
-
-//        Integer MesExpense = Trimestre.JANUARY_EXPENSE.getValor() + Trimestre.FEBRUARY_EXPENSE.getValor() + Trimestre.MARCH_EXPENSE.getValor();
-//        System.out.printf("O gasto total no trimestre é: R$ %.2f.\n", MesExpense);
-//
-//        String mes = "JANUARY_TRIMESTRE";
-
 
     }
 }
